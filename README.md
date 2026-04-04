@@ -1,47 +1,74 @@
 # Numo 🧠📱
 
-Numo es una aplicación de aprendizaje de matemáticas inspirada en plataformas como Duolingo, diseñada para enseñar desde nivel básico hasta niveles más avanzados mediante un sistema interactivo, progresivo y gamificado.
+Numo es una aplicación de aprendizaje de matemáticas inspirada en plataformas como Duolingo, diseñada para guiar al usuario desde nivel básico hasta conceptos más avanzados mediante un sistema interactivo, progresivo y gamificado.
 
-La app ofrece un recorrido estructurado por lecciones, donde el usuario avanza completando niveles, ganando experiencia (XP), manteniendo rachas de estudio y gestionando recursos como vidas y diamantes.
-
-## 🚀 Características actuales
+## 🚀 Características
 
 * Sistema de registro e inicio de sesión
-* Progreso guardado en base de datos
+* Progreso persistente con base de datos
 * Sistema de niveles con desbloqueo progresivo
 * Lecciones interactivas (teoría y práctica)
-* Sistema de vidas (tipo juego)
-* Recompensas con diamantes
-* Sistema de racha diaria
-* Perfil de usuario personalizable
-* Sistema de ligas (competitivo básico)
-* Interfaz estilo camino (similar a Duolingo)
+* Sistema de vidas y recompensas
+* Racha diaria basada en actividad real
+* Perfil de usuario
+* Sistema básico de ligas
+* Interfaz tipo “camino” estilo Duolingo
+* Animaciones y transiciones dinámicas
+
+## ✨ Novedades en v0.7.2-alpha
+
+* Transiciones animadas entre vistas (`AnimatedSwitcher`)
+* Animaciones en botones y elementos interactivos
+* Sistema de racha mejorado (basado en actividad diaria)
+* Scroll automático hacia el nivel actual
+* Animaciones en cascada para niveles
+* Mejora en la estructura de vistas dinámicas
+* Optimización visual general (UX)
 
 ## 📊 Estado del proyecto
 
-Versión actual: **v0.6.7-alpha**
+Versión actual: **v0.7.2-alpha**
 
-Numo se encuentra en una fase Alpha avanzada. La aplicación ya es funcional y jugable, pero aún está en desarrollo activo. Se están agregando más contenidos, mejorando la experiencia de usuario y optimizando el rendimiento.
+Numo se encuentra en una fase Alpha avanzada. La aplicación ya es funcional, estable en su núcleo y con una experiencia de usuario más fluida, pero aún está en desarrollo activo.
 
 ## 🎯 Objetivo
 
-Crear una plataforma intuitiva y atractiva que permita aprender matemáticas de forma progresiva, accesible y entretenida, desde cero hasta niveles avanzados.
+Crear una plataforma intuitiva, atractiva y efectiva para aprender matemáticas desde cero, combinando educación y gamificación.
 
 ## ⚠️ Notas
 
-* Algunas funcionalidades pueden cambiar
-* El contenido aún es limitado (en expansión)
-* No es una versión final ni estable
+* Contenido aún limitado (en expansión)
+* Posibles errores o comportamientos inesperados
+* No es una versión final
 
 ## 🛠️ Tecnologías
 
 * Python
 * Flet (UI)
-* SQLite / Base de datos local
+* MySQL / Base de datos externa
+
+## 📦 Instalación
+
+1. Clonar el repositorio
+2. Instalar dependencias:
+
+```
+pip install -r requirements.txt
+```
+
+3. Configurar variables de entorno:
+
+Crear un archivo `.env` basado en `.env.example`
+
+4. Ejecutar:
+
+```
+python main.py
+```
 
 ## 📌 Futuro
 
-* Más secciones y contenido educativo
-* Mejoras en UX/UI
-* Sistema de recompensas más profundo
-* IA para personalización del aprendizaje
+* Expansión de contenido educativo
+* Mejora del sistema de ligas
+* Integración de IA para personalización
+* Optimización de rendimiento
