@@ -1,0 +1,3 @@
+﻿flet==0.83.0
+mysql-connector-python
+bcrypt
